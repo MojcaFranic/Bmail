@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>register</title>
+    </head>
+
+    <body>
+
+        <form method="post" action="/register">
+            <input name="nickname" placeholder="Enter your nickname"  required value="{{ ime }}"> <br>
+            <input name="email" placeholder="Enter your e-mail" required value="{{ mail }}"> <br>
+            <input name="password" placeholder="Enter your password" type="password"> <br>
+            <input name="again" placeholder="Repeat the password" type="password">
+            <br>
+            <button type="submit">Register</button>
+        </form>
+
+    </body>
+</html>
